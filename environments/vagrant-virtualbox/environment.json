@@ -13,17 +13,27 @@
       "osFamily": "linux",
       "images": [
         {
+          "description": "Development",
+          "imageName": "skillz",
+          "imageVersion": "0"
+        },
+        {
           "description": "Deliverable",
-          "imageName": "project",
+          "imageName": "skillz",
           "imageVersion": "1905.1"
         },
         {
-          "description": "Public image",
-          "imageName": "centos/7",
-          "imageVersion": "1905.1"
+          "description": "Intermediary development",
+          "imageName": "docker-ce",
+          "imageVersion": "0"
+        },
+        {
+          "description": "Intermediary release",
+          "imageName": "docker-ce",
+          "imageVersion": "1905.1.0"
         }
       ],
-      "addrStart": 122,
+      "addrStart": 124,
       "nodeCount": 1,
       "memory": 4096,
       "cpu": 4
@@ -33,22 +43,27 @@
       "osFamily": "linux",
       "images": [
         {
+          "description": "Development",
+          "imageName": "skillz-provisioner",
+          "imageVersion": "0"
+        },
+        {
           "description": "Deliverable",
-          "imageName": "project-provisioner",
+          "imageName": "skillz-provisioner",
           "imageVersion": "1905.1"
         },
         {
-          "description": "Intermediate",
-          "imageName": "centos7-baseline",
-          "imageVersion": "1905.1"
+          "description": "Intermediary development",
+          "imageName": "docker-ce",
+          "imageVersion": "0"
         },
         {
-          "description": "Public image",
-          "imageName": "centos/7",
-          "imageVersion": "1905.1"
+          "description": "Intermediary release",
+          "imageName": "docker-ce",
+          "imageVersion": "1905.1.0"
         }
       ],
-      "addrStart": 22,
+      "addrStart": 24,
       "nodeCount": 1,
       "memory": 4096,
       "cpu": 4
