@@ -1,0 +1,13 @@
+{
+  "ldapRealm": "LOCAL.TEST.COM",
+  "ldapLogin": "devopssa",
+  "localLogin": "devops",
+  "nodeGroups": [
+    { 
+      "nodeGroup": "appliance",
+    },
+    { 
+      "nodeGroup": "provisioner",
+    }
+  ]
+}
